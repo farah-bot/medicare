@@ -37,7 +37,7 @@ class RegisterScreen extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Implementasi logika daftar
+                
               },
               child: Text('Daftar'),
             ),

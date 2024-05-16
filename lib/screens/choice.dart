@@ -12,7 +12,7 @@ class ChoiceScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: MediaQuery.of(context).size.height * 0.6), // Ganti dengan sesuai kebutuhan
+            SizedBox(height: MediaQuery.of(context).size.height * 0.6), 
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -22,15 +22,15 @@ class ChoiceScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0), // Bentuk bulat
+                  borderRadius: BorderRadius.circular(30.0),
                 ),
-                backgroundColor: Colors.blue[900], // Warna biru tua
+                backgroundColor: Colors.blue[900], 
               ),
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                 child: Text(
                   'Masuk',
-                  style: TextStyle(color: Colors.white), // Warna teks putih
+                  style: TextStyle(color: Colors.white), 
                 ),
               ),
             ),
@@ -44,7 +44,7 @@ class ChoiceScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0), // Bentuk bulat
+                  borderRadius: BorderRadius.circular(30.0), 
                 ),
                 backgroundColor: Color(0xFFE9F6FE),
               ),
